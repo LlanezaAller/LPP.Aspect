@@ -11,8 +11,8 @@ public class Test {
 		
 		for (int i=0;i<20;i++) {
 			aleatorio=random.nextInt(10);
-			System.out.println("Se procede a calcular fibonacci de " + aleatorio);
-			System.out.println("["+i+" iteration] Fibonacci number in position ["+aleatorio+"] is ["+calculator.fibonacci(aleatorio)+"]\n");
+			System.out.println("[CLIENTE] Se procede a calcular fibonacci de " + aleatorio);
+			System.out.println("[CLIENTE] ["+i+" iteration] Fibonacci number in position ["+aleatorio+"] is ["+calculator.fibonacci(aleatorio)+"]\n");
 		}
 	}
 }

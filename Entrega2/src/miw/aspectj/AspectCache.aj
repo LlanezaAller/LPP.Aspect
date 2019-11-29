@@ -12,7 +12,7 @@ public aspect AspectCache {
 		Object valorEnCache = cache.get(new Integer(num));
 		
 		if(valorEnCache != null) {
-			System.out.println("\tExito de cache [" + num + "] es: " + valorEnCache + ". La cache es:" + cache);
+			System.out.println("[CACHE] \tExito de cache [" + num + "] es: " + valorEnCache + ". La cache es:" + cache);
 			return ((Integer)valorEnCache).intValue();
 		}
 		
@@ -20,7 +20,7 @@ public aspect AspectCache {
 		try{
 		insert(num, value);
 		}catch (Exception e) {
-			System.err.println("\tError al guardar en cache " + num + " con el valor " + value);
+			System.err.println("[CACHE] \tError al guardar en cache " + num + " con el valor " + value);
 		}
 		return value;
 	}
