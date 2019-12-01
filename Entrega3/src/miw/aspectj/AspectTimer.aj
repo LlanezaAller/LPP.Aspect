@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public aspect AspectTimer {
 	
 	// Para evitar que si existe un acierto en caché no se ejecute el aspecto del profiler se incluye preferencia
-	declare precedence: AspectTimer, AspectCache;
+	declare precedence: ObserverAspect, ObserverProtocol, AspectTimer, AspectCache;
 	
 	static HashMap<Integer, ArrayList<Long>> fibonacci = new HashMap<Integer, ArrayList<Long>>();
 

@@ -10,10 +10,10 @@ public class CalculatorUseOnScreen {
 
 
 	public void observ(Calculator em){
-		System.out.println(name+": I am an observer");
+		System.out.println(name+": Soy un observador");
 	}
 	
 	public void inform(int times){
-		System.out.println("Calculator use fibonacci " + times + " times");
+		System.out.println("\t\t\t\t\t\t[Inform] Calculator ha usado fibonacci " + times + " veces");
 	}
 }
