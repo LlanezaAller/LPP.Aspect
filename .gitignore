@@ -22,18 +22,10 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-Entrega1/.settings/
+.settings/
 
-Entrega1/bin/
+bin
 
-Entrega2/.settings/
+.classpath
 
-Entrega2/bin/
-
-Entrega2/.classpath
-
-Entrega2/.project
-
-Entrega1/.classpath
-
-Entrega1/.project
+.project
